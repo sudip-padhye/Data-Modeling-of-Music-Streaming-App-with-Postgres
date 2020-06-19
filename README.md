@@ -27,9 +27,10 @@ Using the song and log datasets, I created a star schema as shown below, which i
 <img src="star_schema.jpg" alt="drawing" width="400"/>
 
 ### Steps to execute code
-1. Run create_tables.py to create your database and tables.
+1. Unzip data.7z folder.
+2. Run create_tables.py to create your database and tables.
 > python create_tables.py
-2. Open and execute test.ipynb to confirm the creation of your tables with the correct columns. Make sure to click "Restart kernel" to close the connection to the database after running this notebook.
-2. Run etl.py to execute ETL process which loads entire data from json files into corresponding tables.
+3. Open and execute test.ipynb to confirm the creation of your tables with the correct columns. Make sure to click "Restart kernel" to close the connection to the database after running this notebook.
+4. Run etl.py to execute ETL process which loads entire data from json files into corresponding tables.
 > python etl.py
-3. Run test.ipynb to confirm that records were successfully inserted into each table.
+5. Run test.ipynb to confirm that records were successfully inserted into each table.
